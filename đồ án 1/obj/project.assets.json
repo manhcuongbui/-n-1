@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\đồ án 1\\đồ án 1\\đồ án 1\\đồ án 1.csproj",
-      "projectName": "đồ án 1",
-      "projectPath": "D:\\đồ án 1\\đồ án 1\\đồ án 1\\đồ án 1.csproj",
+      "projectUniqueName": "D:\\đồ án 1\\đồ án 1\\đồ án 1\\QuanLyCuaHang.csproj",
+      "projectName": "QuanLyCuaHang",
+      "projectPath": "D:\\đồ án 1\\đồ án 1\\đồ án 1\\QuanLyCuaHang.csproj",
       "packagesPath": "C:\\Users\\KyThuat88\\.nuget\\packages\\",
       "outputPath": "D:\\đồ án 1\\đồ án 1\\đồ án 1\\obj\\",
       "projectStyle": "PackageReference",

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace đồ_án_1.DataAccessLayer
 {
-    class Class1
+    class DangNhapDAL
     {
     }
 }
