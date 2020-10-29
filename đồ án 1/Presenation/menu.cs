@@ -1,30 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Demo.Utility;
 
-namespace Demo.Presenation
+namespace đồ_án_1.Presenation
 {
-    //Trình bày dữ liệu cho đẹp
-    public class MenuDemo : Menu
+    public class MenuGD : menu
     {
-        public MenuDemo(string[] mn) : base(mn) { }
+        public MenuGD(string[] mn) : base(mn) { }
         public override void ThucHien(int vitri)
         {
-            FormHocSinh hocsinh = new FormHocSinh();
+            Formkhachhang khachhang = new Formkhachhang();
             switch (vitri)
             {
                 case 0:
-                    hocsinh.NhapHS();
+                    khachhang.NhapKH();
                     break;
                 case 1:
-                    hocsinh.TimHS();
+                    khachhang.TimKH();
                     break;
                 case 2:
-                    hocsinh.XoaHS();
+                    khachhang.XoaKH();
                     break;
                 case 3:
-                    hocsinh.HienHS20();
+                    khachhang.hien();
                     break;
                 case 4:
                     Environment.Exit(0);
@@ -33,3 +31,4 @@ namespace Demo.Presenation
         }
     }
 }
+

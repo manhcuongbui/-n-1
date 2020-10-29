@@ -1,0 +1,4 @@
+D:\đồ án 1\đồ án 1\đồ án 1\obj\Debug\netcoreapp3.1\đồ án 1.csprojAssemblyReference.cache
+D:\đồ án 1\đồ án 1\đồ án 1\obj\Debug\netcoreapp3.1\đồ án 1.AssemblyInfoInputs.cache
+D:\đồ án 1\đồ án 1\đồ án 1\obj\Debug\netcoreapp3.1\đồ án 1.AssemblyInfo.cs
+D:\đồ án 1\đồ án 1\đồ án 1\obj\Debug\netcoreapp3.1\đồ án 1.csproj.CoreCompileInputs.cache
