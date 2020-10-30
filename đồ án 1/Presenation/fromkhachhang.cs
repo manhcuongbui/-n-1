@@ -34,6 +34,7 @@ namespace đồ_án_1.Presenation
                 Console.ForegroundColor = ConsoleColor.White;
                 dh.ve1("                 ***CHUONG TRINH QUAN LY CUA HANG BAN THIET BI DIEN TU***      ", 22, 1);
                 /////===============================================================================================
+                /////-----------------------------------------------------------------------------------------------
                 Console.ForegroundColor = ConsoleColor.Green;
                 dh.ve1("╔", 24, 5);
                 dh.ve1("╚", 24, 37);
@@ -49,6 +50,7 @@ namespace đồ_án_1.Presenation
                     dh.ve1("║", 115, i);
                 }
                 ///====================================================================================================
+                ///----------------------------------------------------------------------------------------------------
 
                 Console.ForegroundColor = ConsoleColor.Green;
 
@@ -114,6 +116,9 @@ namespace đồ_án_1.Presenation
                         Console.Clear();
                         ThemSV();
                         break;
+                        case ConsoleKey.F2;
+                        Console.Clear();
+
 
 
                 }
@@ -121,3 +126,4 @@ namespace đồ_án_1.Presenation
         }
     }
 }
+
