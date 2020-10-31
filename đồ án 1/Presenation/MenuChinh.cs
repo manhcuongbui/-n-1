@@ -30,7 +30,7 @@ namespace đồ_án_1.Presenation
             dh.ve("╠", 0, 3);
             dh.ve("╣", 99, 3);
             Console.ForegroundColor = ConsoleColor.White;
-            dh.ve("                 ***CHUONG TRINH QUAN LU CUA HANG BAN THIET BI DIEN TU***      ", 2, 1);
+            dh.ve("                 ***CHUONG TRINH QUAN LY CUA HANG BAN THIET BI DIEN TU***      ", 2, 1);
             /////===============================================================================================
             Console.ForegroundColor = ConsoleColor.Green;
             dh.ve("╔", 4, 5);
