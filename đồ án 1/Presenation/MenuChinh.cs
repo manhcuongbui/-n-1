@@ -178,14 +178,14 @@ namespace đồ_án_1.Presenation
                     Console.Clear();
                    
                     break;
-                case ConsoleKey.F8:
-                    Console.Clear();
-                    Thongtinkhac.ThongTinKhac();
-                    break;
-                case ConsoleKey.F9:
-                    Console.Clear();
-                    CongCu.trogiup();
-                    break;
+                //case ConsoleKey.F8:
+                //    Console.Clear();
+                //    Thongtinkhac.ThongTinKhac();
+                //    break;
+                //case ConsoleKey.F9:
+                //    Console.Clear();
+                //    CongCu.trogiup();
+                //    break;
                 case ConsoleKey.F11:
                     Console.Clear();
                     dangnhap1.Dangnhap();
