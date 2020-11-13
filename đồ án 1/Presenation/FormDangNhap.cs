@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using QuanLyCuaHang.Utility;
-using QuanLyCuaHang.Entities;
-using QuanLyCuaHang.Business;
+using đồ_án_1.Utility;
+using đồ_án_1.Entities;
+using đồ_án_1.Business;
+
+
 
 namespace đồ_án_1.Presenation
 {
