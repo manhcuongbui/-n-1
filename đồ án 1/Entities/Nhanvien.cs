@@ -4,58 +4,112 @@ using System.Text;
 
 namespace đồ_án_1.Entities
 {
-    public class nhanvien
+    public class NhanVien
     {
         #region Các thành phần dữ liệu
-        private int manv;
-        private string hoten;
-        private string quequan;
+        private int _manhanvien;
+        private string _tennhanvien;
+        private string _diachi;
+        private string _sodienthoai;
+        private string _email;
+        private double _hesoluong;
+        private static int _luongcoban;
         #endregion
-
         #region Các thuộc tính
-        public int MaSv
+        public int Manhanvien
         {
-            get { return MaSv; }
+            get { return _manhanvien; }
             set
             {
-                if (value >= 1)
-                    manv = value;
+                _manhanvien = value;
             }
         }
-        public string Hoten
+        public string Tennhanvien
         {
-            get { return hoten; }
+            get { return _tennhanvien; }
             set
             {
-                if (value != "")
-                    hoten = value;
+                _tennhanvien = value;
             }
         }
-        public string QueQuan
+        public string Diachi
         {
-            get { return quequan; }
+            get { return _diachi; }
             set
             {
-                if (value != "")
-                    quequan = value;
+                _diachi = value;
+            }
+        }
+        public string Sodienthoai
+        {
+            get { return _sodienthoai; }
+            set
+            {
+                _sodienthoai = value;
+            }
+        }
+        public string Email
+        {
+            get { return _email; }
+            set
+            {
+                _email = value;
+            }
+        }
+        public double Hesoluong
+        {
+            get { return _hesoluong; }
+            set
+            {
+                if (value > 0)
+                    _hesoluong = value;
+            }
+        }
+        public static int Luongcoban
+        {
+            get { return _luongcoban; }
+            set
+            {
+                if (value >= 0)
+                    _luongcoban = value;
             }
         }
         #endregion
-
-        #region Các thương thức             
-        public nhanvien() { }
-        //Phương thức thiết lập sao chép
-        public nhanvien(nhanvien nv)
+        #region Các phương thức
+        public NhanVien() { }
+        public NhanVien(int _manhanvien, string _tennhanvien, string _diachi, string _sodienthoai, string _email, double _hesoluong)
         {
-            this.manv = nv.manv;
-            this.Hoten = string.Copy(nv.Hoten);
-            this.quequan = string.Copy(nv.quequan);
+            this._manhanvien = _manhanvien;
+            this._tennhanvien = _tennhanvien;
+            this._diachi = _diachi;
+            this._sodienthoai = _sodienthoai;
+            this._email = _email;
+            this._hesoluong = _hesoluong;
+           
         }
-        public nhanvien(int mahs, string hoten, string quequan)
+        public NhanVien(NhanVien t)
         {
-            this.manv = mahs;
-            this.hoten = hoten;
-            this.quequan = quequan;
+            this._manhanvien = t._manhanvien;
+            this._tennhanvien = t._tennhanvien;
+            this._diachi = t._diachi;
+            this._sodienthoai = t._sodienthoai;
+            this._email = t._email;
+            this._hesoluong = t._hesoluong;
+      
         }
+        public NhanVien(int _manhanvien, string _tennhanvien, string _diachi, string _sodienthoai, string _email, double _hesoluong)
+        {
+            this._manhanvien = _manhanvien;
+            this._tennhanvien = _tennhanvien;
+            this._diachi = _diachi;
+            this._sodienthoai = _sodienthoai;
+            this._email = _email;
+            this._hesoluong = _hesoluong;
+        }
+        public double Luong()
+        {
+            return _luongcoban * _hesoluong;
+        }
+        #endregion
     }
 }
