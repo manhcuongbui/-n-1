@@ -59,7 +59,7 @@ namespace đồ_án_1.Utility
                     else Writexy(s, x, y);
                 }
                 else if (kt.Key == ConsoleKey.Enter) break;
-                else if (kt.Key == ConsoleKey.Escape) .Program.Hien();
+                else if (kt.Key == ConsoleKey.Escape) đồ_án_1.Program.Hien();
             } while (true);
             return s;
         }
@@ -85,7 +85,7 @@ namespace đồ_án_1.Utility
                     else Writexy(s, x, y);
                 }
                 else if (kt.Key == ConsoleKey.Enter) break;
-                else if (kt.Key == ConsoleKey.Escape) Demo.Program.Hien();
+                else if (kt.Key == ConsoleKey.Escape) đồ_án_1.Program.Hien();
             } while (true);
             return s;
         }
@@ -197,4 +197,3 @@ namespace đồ_án_1.Utility
     }
 }
 
-}
