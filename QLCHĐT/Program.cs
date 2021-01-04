@@ -73,7 +73,7 @@ namespace đồ_án_1
                 String tk = Console.ReadLine();
                 Console.Write("                                           Mật khẩu:");
                 String mk = Console.ReadLine();
-                if (tk == "'" && mk == "'")
+                if (tk == "123" && mk == "123")
                 {
                     Console.Clear();
                     Menu();
