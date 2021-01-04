@@ -81,8 +81,9 @@ namespace đồ_án_1
                 else
                 {
 
-                    Console.WriteLine("                                Tài khoản hoặc mật khẩu không chính xác!!!");
-                    Console.WriteLine("                                Chọn 1 để tiếp tục đăng nhập | Chọn 2 để thoát");
+                    Console.WriteLine("                                Tài khoản hoặc mật khẩu không chính xác!");
+                    Console.WriteLine("                                VUI LÒNG NHẬP LẠI!                      ");
+                    Console.WriteLine("                                Chọn 0 để tiếp tục đăng nhập OR Chọn 1 để thoát");
                     String chon = Console.ReadLine();
                     if (chon == "1")
                     {
