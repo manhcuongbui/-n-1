@@ -43,7 +43,7 @@ namespace đồ_án_1
                         break;
                     case '3':
                         FromNhanVien frnv = new FromNhanVien();
-                        frnv.Menu();
+                        frnv.Hien();
                         break;
                     case '4':
                         FromHoaDon frmhd = new FromHoaDon();

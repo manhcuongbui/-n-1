@@ -1,18 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using System.IO;
-using đồ_án_1.DataAccessLayer.Interface;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using đồ_án_1.Entities;
 
 
-
-namespace đồ_án_1.DataAccessLayer
+namespace đồ_án_1.DataAccessLayer.Interface
 {
     class HoaDonDAL : IHoaDonDAL
     {
         //Xác định đường dẫn của tệp dữ liệu HoaDon.txt
-        private string txtfile = @"D:\đồ án 1\đồ án 1\QLĐCHĐT\Data/HoaDon.txt";
+        private string txtfile = @"D:\đồ án 1\đồ án 1\QLĐCHĐT\bin\Debug\Data/HoaDon.txt";
         //Lấy toàn bộ dữ liệu có trong file HoaDon.txt đưa vào một danh sách 
         public List<HoaDon> GetAllHoaDon()
         {
@@ -24,7 +24,7 @@ namespace đồ_án_1.DataAccessLayer
                 if (s != "")
                 {
                     string[] a = s.Split('#');
-                    list.Add(new HoaDon(a[0], a[1], a[2], int.Parse(a[3]), int.Parse(a[4])));
+                    list.Add(new HoaDon (a[0], a[1], a[2], int.Parse(a[3]), int.Parse(a[4])));
                 }
                 s = fread.ReadLine();
             }
