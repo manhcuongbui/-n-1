@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using đồ_án_1.Business;
+using đồ_án_1.Business.Interface;
 
 
 namespace đồ_án_1.Entities

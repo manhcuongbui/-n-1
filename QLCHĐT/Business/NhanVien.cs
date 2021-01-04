@@ -11,7 +11,7 @@ namespace đồ_án_1.Business
 {
     namespace QLĐT.BusinessLayer.Interface
     {
-        //Thực thi các yêu cầu nghiệm vụ của bài toán đã được quy định tại IKhachHangBLL
+        //Thực thi các yêu cầu nghiệm vụ của bài toán đã được quy định tại INHANVIEN
         public class NhanVienBLL : INhanVienBLL
         {
             private INhanVienDAL nvDA = new NhanVienDAL();
@@ -20,7 +20,7 @@ namespace đồ_án_1.Business
             {
                 return nvDA.GetAllNhanVien();
             }
-            public void ThemKhachHang(NhanVien nv)
+            public void ThemNhanVien(NhanVien nv)
             {
                 if (!string.IsNullOrEmpty(nv.Tennhanvien))
                 {
