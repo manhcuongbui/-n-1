@@ -1,0 +1,8 @@
+D:\đồ án 1\đồ án 1\đồ án 1\obj\Debug\netcoreapp3.1\QuanLyCuaHang.csprojAssemblyReference.cache
+D:\đồ án 1\đồ án 1\đồ án 1\obj\Debug\netcoreapp3.1\QuanLyCuaHang.AssemblyInfoInputs.cache
+D:\đồ án 1\đồ án 1\đồ án 1\obj\Debug\netcoreapp3.1\QuanLyCuaHang.AssemblyInfo.cs
+D:\đồ án 1\đồ án 1\đồ án 1\obj\Debug\netcoreapp3.1\QuanLyCuaHang.csproj.CoreCompileInputs.cache
+D:\đồ án 1\đồ án 1\QLCHĐT\obj\Debug\netcoreapp3.1\QuanLyCuaHang.csprojAssemblyReference.cache
+D:\đồ án 1\đồ án 1\QLCHĐT\obj\Debug\netcoreapp3.1\QuanLyCuaHang.AssemblyInfoInputs.cache
+D:\đồ án 1\đồ án 1\QLCHĐT\obj\Debug\netcoreapp3.1\QuanLyCuaHang.AssemblyInfo.cs
+D:\đồ án 1\đồ án 1\QLCHĐT\obj\Debug\netcoreapp3.1\QuanLyCuaHang.csproj.CoreCompileInputs.cache
