@@ -9,9 +9,9 @@ namespace đồ_án_1.Entities
 {
     public class SanPham
     {
-        private string masp, maloai, tensp;
-        private int soluong, giaban;
-        private string nhasx;
+        private string masp, tensp;
+        private int  giaban;
+        
         public string Masp
         {
             get { return masp; }
@@ -21,15 +21,7 @@ namespace đồ_án_1.Entities
                     masp = value;
             }
         }
-        public string Maloai
-        {
-            get { return maloai; }
-            set
-            {
-                if (!string.IsNullOrEmpty(value))
-                    maloai = value;
-            }
-        }
+        
         public string Tensp
         {
             get { return tensp; }
@@ -39,15 +31,7 @@ namespace đồ_án_1.Entities
                     tensp = value;
             }
         }
-        public int Soluong
-        {
-            get { return soluong; }
-            set
-            {
-                if (value > 0)
-                    soluong = value;
-            }
-        }
+       
         public int Giaban
         {
             get { return giaban; }
@@ -57,34 +41,23 @@ namespace đồ_án_1.Entities
                     giaban = value;
             }
         }
-        public string Nhasx
-        {
-            get { return nhasx; }
-            set
-            {
-                if (!string.IsNullOrEmpty(value))
-                    nhasx = value;
-            }
-        }
+       
         //Phương thức thiết lập 
         public SanPham() { }
         public SanPham(SanPham sp)
         {
             this.masp = sp.masp;
-            this.maloai = sp.maloai;
+           
             this.tensp = sp.tensp;
-            this.soluong = sp.soluong;
+          
             this.giaban = sp.giaban;
-            this.nhasx = sp.nhasx;
+         
         }
-        public SanPham(string masp, string maloai, string tensp, int soluong, int giaban, string nhasx)
+        public SanPham(string masp,  string tensp, int giaban)
         {
             this.masp = masp;
-            this.maloai = maloai;
             this.tensp = tensp;
-            this.soluong = soluong;
             this.giaban = giaban;
-            this.nhasx = nhasx;
         }
     }
 }

@@ -10,7 +10,7 @@ using đồ_án_1.Entities;
 
 namespace đồ_án_1.Business
 {
-    namespace QLĐT.BusinessLayer.Interface
+    namespace đồ_án_1.BusinessLayer.Interface
     {
         //Thực thi các yêu cầu nghiệm vụ của bài toán đã được quy định tại IKhachHangBLL
         public class KhachHangBLL : IKhachHangBLL

@@ -23,7 +23,7 @@ namespace đồ_án_1.DataAccessLayer
                 if (s != "")
                 {
                     string[] a = s.Split('#');
-                    list.Add(new SanPham(a[0], a[1], int.Parse(a[2])));
+                    list.Add(new SanPham (a[0], a[1], int.Parse(a[2])));
                 }
                 s = fread.ReadLine();
             }
@@ -36,7 +36,7 @@ namespace đồ_án_1.DataAccessLayer
             string masanpham = "SP" + DateTime.Now.ToString("yyMMddhhmmss");
             StreamWriter fwrite = File.AppendText(txtfile);
             fwrite.WriteLine();
-            fwrite.Write(masanpham + "#" + sp.Tensp + "#" + sp.Maloai );
+            fwrite.Write(masanpham + "#" + sp.Tensp + "#" + sp.Giaban );
             fwrite.Close();
         }
         //Cập nhật lại danh sách vào tệp        

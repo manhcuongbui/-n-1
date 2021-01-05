@@ -24,7 +24,7 @@ namespace đồ_án_1.DataAccessLayer.Interface
                 if (s != "")
                 {
                     string[] a = s.Split('#');
-                    list.Add(new HoaDon (a[0], a[1], a[2], int.Parse(a[3]), int.Parse(a[4])));
+                    list.Add(new HoaDon(a[0], a[1], a[2], int.Parse(a[3]), int.Parse(a[4]))); 
                 }
                 s = fread.ReadLine();
             }

@@ -41,10 +41,10 @@ namespace đồ_án_1
                         FromKhachHang frmkh = new FromKhachHang();
                         frmkh.Menu();
                         break;
-                    case '3':
-                        FromNhanVien frnv = new FromNhanVien();
-                        frnv.Hien();
-                        break;
+                    //case '3':
+                    //    FromNhanVien frnv = new FromNhanVien();
+                    //    frnv.Hien();
+                    //    break;
                     case '4':
                         FromHoaDon frmhd = new FromHoaDon();
                         frmhd.Menu();

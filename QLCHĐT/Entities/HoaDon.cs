@@ -8,7 +8,7 @@ namespace đồ_án_1.Entities
     {
         #region Các thành phần dữ liệu
         private string mahoadon;
-        private string makhachhang;
+       
         private string tensanpham;
         private int soluong;
         private string ngayxuat;
@@ -25,15 +25,7 @@ namespace đồ_án_1.Entities
                     mahoadon = value;
             }
         }
-        public string MaKhachHang
-        {
-            get { return makhachhang; }
-            set
-            {
-                if (!string.IsNullOrEmpty(value))
-                    makhachhang = value;
-            }
-        }
+       
         public string Tensanpham
         {
             get { return tensanpham; }
@@ -82,14 +74,20 @@ namespace đồ_án_1.Entities
         public HoaDon(HoaDon hd)
         {
             this.mahoadon = hd.mahoadon;
-            this.makhachhang = hd.makhachhang;
+            this.soluong = hd.soluong;
+            this.TongSoTien = hd.TongSoTien;
+            this.ngayxuat = hd.ngayxuat;
+           
             this.ngayxuat = hd.ngayxuat;
         }
-        public HoaDon(string mahoadon, string makhachhang, string ngayxuat)
+        public HoaDon(string mahoadon, string ngayxuat,string sodienthoai,int soluong, int TongsoTien)
         {
             this.mahoadon = mahoadon;
-            this.makhachhang = makhachhang;
             this.ngayxuat = ngayxuat;
+            this.soluong = soluong;
+            this.TongSoTien=TongSoTien;
+
+         
         }
         #endregion
     }
